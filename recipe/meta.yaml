@@ -1,14 +1,14 @@
 {% set name = "findlibs" %}
 {% set pypi_name = "findlibs" %}
-{% set version = "0.0.5" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: 7a801571e999d0ee83f9b92cbb598c21f861ee26ca9dba74cea8958ba4335e7e
+  url: https://pypi.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
+  sha256: dc7a0d4fe2bb6635f1e4bdcde60aecec42b6755c4783c2f629069c2f9321d732
 
 build:
   number: 0
