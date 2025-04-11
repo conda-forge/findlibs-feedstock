@@ -7,7 +7,6 @@ Subject: [PATCH 1/2] Convert fully to pyproject.toml
  pyproject.toml | 51 +++++++++++++++++++++++++++++++++++++++++-
  setup.py       | 60 --------------------------------------------------
  2 files changed, 50 insertions(+), 61 deletions(-)
- delete mode 100644 setup.py
 
 diff --git a/pyproject.toml b/pyproject.toml
 index fed528d..20865a5 100644
@@ -69,10 +68,9 @@ index fed528d..20865a5 100644
 +test = ["pytest", "pyfakefs"]
 \ No newline at end of file
 diff --git a/setup.py b/setup.py
-deleted file mode 100644
 index 800d469..0000000
 --- a/setup.py
-+++ /dev/null
++++ b/setup.py
 @@ -1,60 +0,0 @@
 -#!/usr/bin/env python
 -# (C) Copyright 2020 ECMWF.
