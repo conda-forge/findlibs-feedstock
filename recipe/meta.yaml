@@ -10,7 +10,7 @@ source:
   url: https://pypi.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
   sha256: dc7a0d4fe2bb6635f1e4bdcde60aecec42b6755c4783c2f629069c2f9321d732
   patches:
-    - 0001-Patch-for-pyproject.toml.patch
+    - 0001-Add-pyproject.toml.patch
     - 0002-Patch-to-rename-setup.py.patch
 
 build:
