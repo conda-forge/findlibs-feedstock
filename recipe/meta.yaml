@@ -19,6 +19,8 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - setuptools >=61
+    - setuptools-scm >=8
   run:
     - python >=3.6
 
