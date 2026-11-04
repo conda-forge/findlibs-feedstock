@@ -1,6 +1,6 @@
 {% set name = "findlibs" %}
 {% set pypi_name = "findlibs" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: 4aa4637d4f18d25a877c8ef16d1585195a4eb7360e0949fd59600b4d9b367a3b
+  sha256: 68bc98d26cbd73ea2a20ee11920f60d8ad29c504e2ce82191aafd8ef734cb865
 
 build:
   number: 0
